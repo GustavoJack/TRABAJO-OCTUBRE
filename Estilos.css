@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+html {
+    font-size: 16px;
+   
+    scroll-behavior: smooth;
+
+}
+
+section {
+   
+    text-decoration: underline;
+}
+
+section0 {
+    text-decoration: underline;
+    
+
+}
+
+section1 {
+        display: flex;        
+        height: 200px;
+        align-items: baseline;
+        flex-wrap: nowrap;
+      
+}
+section2{
+    text-align: justify;
+    margin:30px
+}
+
+.informacion {
+
+    
+    background-image: url(https://media.viajando.travel/p/e73d894ad7eab2f425620986f97d979f/adjuntos/236/imagenes/000/531/0000531713/1200x0/smart/disfruta-escapadas-cordoba-y-conoce-los-reartes-unos-dias-conociendo-el-pueblo-mas-antiguo-del-valle-calamuchita.png);
+
+    height: 200px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: white;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    back
+
+}
+
+
+
+.header {
+    border: solid;
+    border-radius:10px;
+    background-color:rgba(77, 235, 101, 0.562);
+    text-align:center;
+    margin-bottom:20px;
+     }
+
+
+body {
+    margin: 10px;
+    padding: 0;
+}
+
+/*Dispositivos pequeños*/
+
+@media screen and (min-width: 0px) and (max-width:672px) {
+    body {
+        background-color: rgba(164, 236, 175, 0.562);
+        text-align: center;
+        
+    }
+   
+
+    .container1 {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+
+
+
+    }
+
+    .container2 {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .container3 {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .container4 {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+/*Dispositivos medianos*/
+@media screen and (min-width: 673px) and (max-width:990px) {
+    body {
+        background-color: rgb(148, 192, 152);
+        text-align: center;
+
+        .imagen {
+            background-position: center;
+
+
+
+        }
+
+
+
+        .container1 {
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+
+        }
+
+
+
+        .container2 {
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .container3 {
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .container4 {
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+
+}
+
+/*Dispositivos grandes*/
+@media screen and (min-width:990px) {
+    body {
+        background-color: rgba(44, 88, 49, 0.596);
+        text-align: center;
+
+        .imagen {
+            background-position: center;
+
+
+
+        }
+
+
+
+        .container1 {
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+
+        }
+
+
+
+        .container2 {
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .container3 {
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .container4 {
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+
+}
+
+/* AHORA FLEXBOX*/
+
+.container1 {
+    
+    display: flex;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid;
+    margin-bottom: 10px;
+    width: 30%;
+    overflow: hidden;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 50);
+    margin-top: 30px;
+    margin-right: 10px;
+    
+    
+
+}
+
+.container2 {
+    display: flex;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid;
+    margin-bottom: 10px;
+    width: 30%;
+    overflow: hidden;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 50);
+    margin-top: 30px;
+    margin-right: 10px;
+
+}
+
+.container3 {
+    display: flex;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid;
+    margin-bottom: 10px;
+    width: 30%;
+    overflow: hidden;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 50);
+    margin-top: 30px;
+    margin-right: 10px;
+
+
+}
+
+.container4 {
+    display: flex;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid;
+    margin-bottom: 10px;
+    width: 30%;
+    overflow: hidden;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 50);
+    margin-top: 30px;
+    margin-right: 10px;
+
+
+}
+
+
+
+
+.imagen {
+    width: 200px;
+    height: 150px;
+    margin-right: 15px;
+    margin-top: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-bottom: 10px;
+    
+
+}
+.container1:hover{
+    transform:scale(1.05);
+  
+}
+
+.container2:hover{
+    transform:scale(1.05);
+}
+
+.container3:hover{
+    transform:scale(1.05);
+}
+
+.container4:hover{
+    transform:scale(1.05);
+}
+
+
+.MAPAS {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.MAPAS div {
+    margin: 50px;
+    height: auto;
+
+}
