@@ -36,7 +36,7 @@ section2{
     margin:30px
 }
 
-.informacion {
+.informacion1 {
 
     
     background-image: url(https://media.viajando.travel/p/e73d894ad7eab2f425620986f97d979f/adjuntos/236/imagenes/000/531/0000531713/1200x0/smart/disfruta-escapadas-cordoba-y-conoce-los-reartes-unos-dias-conociendo-el-pueblo-mas-antiguo-del-valle-calamuchita.png);
@@ -49,7 +49,21 @@ section2{
     margin-bottom: 30px;
     background-repeat: no-repeat;
     background-position: center;
-    back
+   
+
+}
+.informacion2{
+    background-image: url(https://thumbs.dreamstime.com/b/centro-c%C3%ADvico-civico-y-plaza-principal-en-el-de-bariloche-al-atardecer-patagonia-argentina-263062223.jpg?w=768);
+
+    height: 200px;
+    width: 800px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: white;
+    margin-bottom: 30px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
 
@@ -67,6 +81,10 @@ section2{
 body {
     margin: 10px;
     padding: 0;
+}
+.formulario{
+    border: solid;
+    background-color: blue;
 }
 
 /*Dispositivos pequeños*/

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <p>
+    <h2>Formulario de contacto</h2>
+    </p>
+   
+        <form action="receptor.php" name="formulario" method="get">
+            <input type="text" name="nombre" id="nombre" maxlength="30" placeholder="Nombre:" required>
+
+            <input type="radio" name="sexo" id="hombre" value="Hombre" required>Hombre
+            <input type="radio" name="sexo" id="mujer" value="Mujer" required> Mujer
+            <br>
+
+
+            <input type="email" name="correo" required>
+            Correo electrónico
+            <br>
+            <input type="checkbox" name="terminos" id="terminos" required>Terminos y Condiciones
+            <br>
+            <input type="submit" id="btn" value="Enviar">
+
+        </form>
+    
+    <script>
+        (function () {
+            var formulario = forms
+        }())
+
+    </script>
+    
+
+</body>
+
+</html>
